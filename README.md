@@ -1,10 +1,1 @@
-Entities
-Student : REGULAR ENTITY
-StudentID : [PK] ATTRIBUTE Type:NUMERIC Length=10 Width=
-Name : ATTRIBUTE Type:CHAR Length=30
-Course : REGULAR ENTITY
-CourseID : [PK] ATTRIBUTE Type:NUMERIC Length=10 Width=
-Descr : ATTRIBUTE Type:CHAR Length=30
-Relationships
-Student_Course : REGULAR RELATIONSHIP Student ONE OPTIONAL to Course MANY MANDATORY
-Course_Student : REGULAR RELATIONSHIP Course ONE MANDATORY to Student MANY MANDATORY
+This project is an Entity-Relationship (ER) diagram created using the ER Assistant tool. It models student course registration, showing the relationships between students, courses, and related entities. The diagram helps visualize how data is organized in a course registration system, making it easier to understand database design concepts for students.
